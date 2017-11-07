@@ -1,0 +1,14 @@
+appname: auth-ms
+
+maxconnectionsallowed: 10
+
+cors:
+  allowedhethods: GET,PUT,POST,DELETE
+  allowedheaders: accept,x-access-token,content-type,authorization
+
+login:
+  tokendurationindays: 30
+
+password:
+  min: 8
+  max: 256
